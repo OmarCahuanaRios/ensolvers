@@ -22,7 +22,13 @@ SPRING WEB
 
 
 # LOGIN:
- Usuario:Omar
- Contraseña:Cahuana
+ Usuario:omar
+ Contraseña:cahuana
 
 # Desplegado en Heroku
+
+# backend 
+  https://todo-task-back-heroku.herokuapp.com/
+
+# frontend
+  https://todo-task-front-heroku.herokuapp.com/
