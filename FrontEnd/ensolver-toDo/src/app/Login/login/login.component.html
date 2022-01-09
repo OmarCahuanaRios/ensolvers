@@ -1,0 +1,28 @@
+<div id="cont" class="container">
+    <div class="container">
+        <div class="card" >
+            <div class="card-header">
+                <h3>LOGIN</h3>
+    
+            </div>
+    
+            <div>
+                USUARIO: <input type="text"   style="margin-left: 35px;" placeholder="Ingrese usuario" [(ngModel)]="username"  [ngModelOptions]="{standalone: true}">
+                
+            </div>
+            <br>
+            <div>
+                CONTRASEÑA: <input type="password"  placeholder="Ingrese contraseña" [(ngModel)]="password"  [ngModelOptions]="{standalone: true}">
+            </div>
+            
+    
+        </div>
+    
+        <button class="btn btn-success" style="margin-top: 10px;"  (click)=checkLogin() >
+            Login
+        </button>
+        
+    </div>
+    
+</div>
+
